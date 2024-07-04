@@ -90,7 +90,6 @@ done
 if [ ! -z "$RUN" ] ; then
  :
 else
- TWMKEY=$(curl https://codeberg.org/ueliton/auth/raw/branch/main/auth -s -L|base64 -d)
  SERVER='https://raw.githubusercontent.com/OluasArieiv/furiabot/main/'
  remote_count=$(curl ${SERVER}sourceinstall.sh -s -L|wc -c)
  if [ -e "$HOME/twm/sourceinstall.sh" ] ; then
