@@ -2,7 +2,7 @@ clancoliseum_fight () {
  cd $tmp_ram
 
  #/enterFight
- local LA=5 # interval attack
+ local LA=3 # interval attack
  local HPER=33 # % to heal
  local RPER=15 # % to random
 
