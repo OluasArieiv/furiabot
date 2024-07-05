@@ -7,7 +7,7 @@ king_fight () {
 
  #/enterFight
  cd $TMP
- local LA=12 # interval attack
+ local LA=16 # interval attack
  local HPER="38" # % to heal
  local RPER=5 # % to random
  cl_access () {
