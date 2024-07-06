@@ -15,7 +15,7 @@ coliseum_fight () {
  ) &
  time_exit 20
  #/enterFight
- local LA=16    #2.Interval attack
+ local LA=100    #2.Interval attack
  local HPER=30 #3.HPER % to heal
  local RPER=5 #4.RPER % to random
  printf "\nColiseum ...\n"
