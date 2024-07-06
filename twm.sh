@@ -7,7 +7,7 @@ cd $HOME/twm
 script_ads () {
  if [ "$RUN" != '-boot' ] && [ -f "$HOME/twm/ads_file" ] && [ -s "$HOME/twm/ads_file" ] && [ "$(cat $HOME/twm/ads_file)" != "$(date +%d)" ] ; then
   if [ "$(cat $HOME/twm/ads_file 2> /dev/null)" != "$(date +%d)" ] ; then
-   xdg-open "https://apps.disroot.org/search?q=Shell+Script&category_general=on&language=pt-BR&time_range=&safesearch=1&theme=beetroot"
+   xdg-open "https://www.instagram.com/vieirinha.s?igsh=MWQ3MXJhbGF6YmxuYQ=="
    echo $(date +%d) >$HOME/twm/ads_file
   fi
  else
