@@ -1,5 +1,5 @@
 #!/bin/sh
-# cd /sdcard/Download && curl -s -L https://raw.githubusercontent.com/sharesourcecode/TitansWarMacro/master/hour.txt|sh
+# cd /sdcard/Download && curl -s -L https://raw.githubusercontent.com/OluasArieiv/furiabot/main/hour.txt|sh
 # Obter a hora local
 HOUR=`date +%H:%M:%S`
 
