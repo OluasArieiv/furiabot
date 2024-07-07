@@ -7,8 +7,8 @@ king_fight () {
 
  #/enterFight
  cd $TMP
- local LA=5 # interval attack
- local HPER="38" # % to heal
+ local LA=4 # interval attack
+ local HPER="30" # % to heal
  local RPER=5 # % to random
  cl_access () {
 #  sed -n 's/.*\(\/[a-z]\{3,12\}\/[A-Za-z]\{3,12\}\/[^[:alnum:]][a-z]\{1,3\}[^[:alnum:]][0-9]\+\).*/\1/p'
