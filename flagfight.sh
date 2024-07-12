@@ -2,7 +2,7 @@ flagfight_fight () {
  cd $tmp_ram
 
  #/enterFight
- local LA=6   # interval attack
+ local LA=4   # interval attack
  local HPER=30 # % to heal
  local RPER=15 # % to random
 
