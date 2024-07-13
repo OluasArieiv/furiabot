@@ -89,7 +89,7 @@ func_sleep () {
 #   check_missions
    reset
    clear
-   i=45
+   i=10
 #   printf "\n No battles now, waiting 30s\n"
    func_cat
 #   sleep 25s
