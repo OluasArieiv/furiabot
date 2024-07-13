@@ -43,7 +43,8 @@ twm_play () {
   ;;
   #/King of the Immortals 12:30:00 - 16:30:00 - 22:30:00
   (12:2[5-9]|16:2[5-9]|22:2[5-9])
-   king_start
+   arena_duel
+   king_start   
    standard_crono
   ;;
   #/Ancient Altars 14:00:00 - 21:00:00
