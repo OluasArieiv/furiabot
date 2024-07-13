@@ -63,6 +63,7 @@ func_sleep () {
   (01)
    case $(date +%H) in
     (0[012345678])
+     arena_duel
      coliseum_start
      reset
      clear
