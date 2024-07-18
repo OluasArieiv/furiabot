@@ -5,7 +5,7 @@ altars_fight () {
  apply_event
 
  #/enterFight
- local LA=8 # interval attack
+ local LA=4 # interval attack
  echo "30" >HPER # % to heal
  echo "15" >RPER # % to random
  cf_access () {
