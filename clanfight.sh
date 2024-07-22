@@ -8,8 +8,8 @@
 clanfight_fight () {
  cd $TMP
  #/enterFight
- local LA=4500 # interval attack
- local HPER=33 # % to heal
+ local LA=8000 # interval attack
+ local HPER=30 # % to heal
  local RPER=15 # % to random
  awk -v ush="$(cat FULL)" -v hper="$HPER" 'BEGIN { printf "%.0f", ush * hper / 100 }' >HLHP
  cf_access () {
